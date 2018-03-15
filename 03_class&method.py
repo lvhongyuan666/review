@@ -66,7 +66,7 @@ class Money(object):
     def money(self):
         return self.__money
 
-    @money.setter
+    @money.settero
     def money(self, value):
         if isinstance(value,int):
             self.__money = value

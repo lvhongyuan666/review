@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d1b09f7-ca61-437f-8855-a02fc005e58b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_class&amp;method.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04_method&amp;garbage.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_deco&amp;inter.py" afterPath="$PROJECT_DIR$/02_deco&amp;inter.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/review$03_class_method.coverage" NAME="03_class&amp;method Coverage Results" MODIFIED="1520952994060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/review$04_method_garbage.coverage" NAME="04_method&amp;garbage Coverage Results" MODIFIED="1521042344127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/review$01_str_list.coverage" NAME="01_str&amp;list Coverage Results" MODIFIED="1520697246862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/review$02_deco_inter.coverage" NAME="02_deco&amp;inter Coverage Results" MODIFIED="1520776469050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -34,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02_deco&amp;inter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_deco&amp;inter.py">
+      <file leaf-file-name="03_class&amp;method.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_class&amp;method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state relative-caret-position="507">
+              <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03_class&amp;method.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03_class&amp;method.py">
+      <file leaf-file-name="04_method&amp;garbage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_method&amp;garbage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+            <state relative-caret-position="750">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,6 +72,7 @@
         <option value="$PROJECT_DIR$/01_str&amp;list.py" />
         <option value="$PROJECT_DIR$/02_deco&amp;inter.py" />
         <option value="$PROJECT_DIR$/03_class&amp;method.py" />
+        <option value="$PROJECT_DIR$/04_method&amp;garbage.py" />
       </list>
     </option>
   </component>
@@ -82,7 +83,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="161" />
+    <option name="x" value="71" />
     <option name="y" value="52" />
     <option name="width" value="1297" />
     <option name="height" value="716" />
@@ -126,7 +127,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.03_class&amp;method">
+  <component name="RunManager" selected="Python.04_method&amp;garbage">
     <configuration default="false" name="01_str&amp;list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,6 +178,24 @@
       <module name="review" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_class&amp;method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="04_method&amp;garbage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="review" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_method&amp;garbage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -395,16 +414,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.01_str&amp;list" />
       <item index="1" class="java.lang.String" itemvalue="Python.02_deco&amp;inter" />
       <item index="2" class="java.lang.String" itemvalue="Python.03_class&amp;method" />
+      <item index="3" class="java.lang.String" itemvalue="Python.04_method&amp;garbage" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.03_class&amp;method" />
-        <item index="1" class="java.lang.String" itemvalue="Python.02_deco&amp;inter" />
-        <item index="2" class="java.lang.String" itemvalue="Python.01_str&amp;list" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.04_method&amp;garbage" />
+        <item index="1" class="java.lang.String" itemvalue="Python.03_class&amp;method" />
+        <item index="2" class="java.lang.String" itemvalue="Python.02_deco&amp;inter" />
+        <item index="3" class="java.lang.String" itemvalue="Python.01_str&amp;list" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +443,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="52" width="1297" height="716" extended-state="4" />
+    <frame x="71" y="52" width="1297" height="716" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15378486" sideWeight="0.48895028" order="0" side_tool="false" content_ui="combo" />
@@ -431,7 +452,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3542673" sideWeight="0.49717513" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62801933" sideWeight="0.49717513" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24939467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7966667" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14527845" sideWeight="0.51104975" order="2" side_tool="true" content_ui="tabs" />
@@ -487,6 +508,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02_deco&amp;inter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01_str&amp;list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -495,18 +524,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_deco&amp;inter.py">
+    <entry file="file://$PROJECT_DIR$/03_class&amp;method.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state relative-caret-position="507">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_class&amp;method.py">
+    <entry file="file://$PROJECT_DIR$/04_method&amp;garbage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+        <state relative-caret-position="750">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
