@@ -117,7 +117,7 @@ mutex = threading.Lock()
 mutex.acquire()
 #----------执行任务
 # 释放
-mutex.release()a
+mutex.release()
 '''
 上锁解锁过程
 当一个线程调用acquire（）方法获得锁时，锁就进入locked状态
