@@ -138,3 +138,98 @@ limit start，count
  drop index 索引名称 on 表名  ---- 删除索引
 
 '''
+'''
+NOSQL 非关系型数据库
+优势：
+①易扩展: nosql 的共同点就是数据之间没有关系，这样易于扩展
+②大数据量，高性能：NoSql都具有非常高的读写性能，尤其在大数据量下，同样表现优先，得益于它的无关系性，数据库的结构简单
+③灵活的数据模型：NoSQL无需事先为要存储的数据建立字段，随时可以存储自定义的数据格式
+④高可用：NoSQL在不太影响性能的情况，就可以方便的实现高可用的架构
+
+'''
+
+'''
+redis -- 是一个开源的，内存性的数据存储系统，它可以用做数据库，缓存和消息中间件
+
+redis是key-value的数据结构，每一条数据都是一个键值对
+键的类型是字符串，键不能重复
+值的类型有五种：
+字符串string
+哈希hash
+列表list
+集合set
+有序集合zset
+'''
+
+
+'''
+字符串string --string类型是二进制安全的，可以存储任何数据，比如数字、图片等
+设置
+set key value
+mset key1 value1 key2 value2
+append key value
+
+获取
+get key
+mget key1 key2 key3
+'''
+
+'''
+hash 用于存储对象，对象的结构为属性、值
+值得类型为string
+设置
+hset key field value
+hmset key field1 value1 field2 value2
+
+获取
+hkeys key   --- 获取指定键的所有属性
+hget key field  --- 获取一个属性的值
+hvals key  --- 获取所有属性的值
+
+删除
+hdel key field1 field2
+
+'''
+
+'''
+列表 list
+
+增加
+rpush key value1 value2 -- 从右边插入
+lpush key value1 value2  -- 从左边插入
+
+获取
+lrange key start stop   --- start stop 指的是下标元素
+
+
+'''
+
+'''
+set  -- 无序集合
+元素具有唯一性
+
+增肌
+sadd key menber1 menber2
+
+获取
+smembers key
+
+删除
+srem key member -- 删除指定元素
+
+'''
+
+'''
+zset  -- 有序集合  sorted set
+每个元素都会关联一个double类型的score，表示权重，通过权重将元素从小到大排序
+
+增加
+zadd key score1 member1 score2 member2
+
+获取
+zrange key start stop
+
+删除
+zrem key member1 member2
+
+'''
