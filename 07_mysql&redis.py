@@ -1,14 +1,19 @@
 
 # def count():
 #     fs = []
+#     print(fs)
 #     for i in range(1,4):
 #
 #         def f():
 #             return i*i
 #         fs.append(f)
+#         print(fs)
 #     return fs
 #
-# for f in count():
+# ff = count()
+#
+# for f in ff:
+#     # print(count())
 #     print(f())
 
 '''
