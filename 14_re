@@ -1,0 +1,51 @@
+re模块中的高级用法--- 核心函数（方法）
+search、match 方法，若匹配成功，则返回匹配对象，若匹配失败，则返回None
+匹配对象具有group()方法，如果匹配到数据，使用group()来提取，返回匹配到的部分
+
+1、search() 匹配对象的第一个值，从前往后匹配，可以在任何位置开始匹配，返回匹配到的第一个值
+>>> ret = re.search(r'\d+','阅读次数9999')
+>>> ret.group()
+'9999'
+
+2、match()  用来进行正则匹配检查
+检测匹配的对象的开头是否匹配，从字符串的第一个字符开始匹配，，第一个匹配成功，将会继续匹配后面的字符，否则将停止匹配，结果返回匹配到的字符串
+>>> ret = re.match(r'h','hello')
+>>> ret.group()
+'h'
+>>> result = re.match(r'h[a-z]+', 'hello')
+>>> result.group()
+'hello'
+
+如果没有匹配到以s开头的，将会返回None
+>>> ret = re.match(r's','hello')
+>>> ret
+>>> print(ret)
+None
+
+3、findall() 统计检索出所有符合条件的数据，不需要调用group()方法
+返回一个匹配列表，没有符合条件的返回一个空列表
+# 匹配一个电话号码的正则
+>>> re.findall(r'1[3578]\d{9}','moble 186123456789 155987654321')
+['18612345678', '15598765432']
+>>>
+>>> re.findall(r'1[3578]\d{9}','moble 146123456789 105987654321')
+[]
+
+4、sub() 将匹配到的数据进行替换
+sub(pattern, repl, string)
+pattern 模式，用正则表现出来，
+repl 替换  用什么替换
+string 字符串，要操作的字符串
+
+>>> re.sub('\d+','***','password=123456')
+'password=***'
+
+5、split() 根据参数，进行任意形式的切割，并返回一个列表
+split(pattern, string)  根据pattern进行切割
+>>> s = 'hello,python;hi:world'
+>>> re.split('[,:;]',s)
+['hello', 'python', 'hi', 'world']
+
+6、python的贪婪模式和非贪婪模式
+python里数量词默认是贪婪的，总是尝试匹配更多的字符
+加上？ 变成非贪婪
