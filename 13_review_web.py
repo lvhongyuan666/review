@@ -24,7 +24,7 @@ eg: www.baidu.com  ----域名
 服务器将处理结果封装为http响应报文， 返回给客户端
 
 
-managy.py run  测试服务器
+managy.py runserver  测试服务器
 
 nginx 高性能的静态文件服务器 -- 提供静态文件能力强
 
